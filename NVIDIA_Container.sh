@@ -4,6 +4,7 @@
 
 
 #configure production repository
+echo "Installing NVIDIA container Toolkit" 
 
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
@@ -26,3 +27,7 @@ sleep 1
 sudo systemctl restart docker
 sleep 1
 
+echo "Docker configured - Executing Coolgpus.sh"
+sleep 1
+
+sudo bash Coolgpus.sh
