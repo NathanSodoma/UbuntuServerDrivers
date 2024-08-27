@@ -1,7 +1,7 @@
 #!\bin\bash
 #Installs GPU Burn and runs GPU-brun and coolgpus Test
 
-cd ~
+
 echo "cloning repository"
 git clone https://github.com/wilicc/gpu-burn
 sleep 1
