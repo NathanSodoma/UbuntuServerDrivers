@@ -2,7 +2,7 @@
 #runs coolgpus
 
 
-cd /usr/local/bin/coolgpus
+cd /usr/local/bin
 
 echo running GPU fans at 99 speed 
 
