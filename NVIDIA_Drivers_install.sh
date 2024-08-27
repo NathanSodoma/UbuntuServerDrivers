@@ -53,4 +53,8 @@ sleep 1
 #kill displays
 sudo systemctl set-default multi-user.target
 
-echo "coolgpus installed - reboot now"
+echo "coolgpus installed"
+echo "Executing NVIDIA_Container.sh"
+sleep 1
+
+sudo bash NVIDIA_Container.sh
