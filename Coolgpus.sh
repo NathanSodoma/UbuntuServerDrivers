@@ -1,8 +1,8 @@
 #!\bin\bash
 #runs coolgpus
 
-cd ~
-cd ~/.local/bin
+
+cd /usr/local/bin/coolgpus
 
 echo running GPU fans at 99 speed 
 
