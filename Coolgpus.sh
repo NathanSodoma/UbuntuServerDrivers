@@ -11,6 +11,5 @@ sudo ./coolgpus --speed 99 99
 echo "coolgpus enabled - executing GPU_Burn_Test.sh"
 sleep 1
 
-cd ~
-cd UbuntuServerDrivers
+
 sudo bash GPU_Burn_Test.sh
