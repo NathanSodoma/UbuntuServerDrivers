@@ -27,7 +27,4 @@ sleep 1
 sudo systemctl restart docker
 sleep 1
 
-echo "Docker configured - Executing Coolgpus.sh"
-sleep 1
 
-sudo bash Coolgpus.sh
